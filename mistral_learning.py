@@ -18,8 +18,8 @@ from peft import (
 )
 from huggingface_hub import login
 
-# Авторизация в Hugging Face
-login(token="")
+# Авторизация в Hugging Face 
+login(token=" ")
 
 # Проверка CUDA и очистка памяти
 torch.cuda.empty_cache()
